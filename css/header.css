@@ -4,6 +4,7 @@ header
     width: 100%;
     height: 7%;
     background-color: #4d636f;
+    z-index: 2;
 }
 
 nav
@@ -40,17 +41,6 @@ li
     gap: 15px;
 }
 
-.home_logo:hover
-{
-    background-color: #cccccc;
-    cursor: pointer;
-    color: black;
-}
-
-.home_logo:hover .home_img_size {
-    display: none;
-}
-
 .home_img_size
 {
     width: 13%;
@@ -64,16 +54,137 @@ li
     display: none;
 }
 
+.home_logo:hover
+{
+    background-color: #cccccc;
+    cursor: pointer;
+    color: black;
+}
+
+.home_logo:hover .home_img_size {
+    display: none;
+}
+
 .home_logo:hover .home_img_size_hover {
     display: block;
 }
 
-
+/*
+    For the 4 other logo in left side logo
+*/
 
 .other_logo_container
 {
     width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.other_logo_container:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo_img_header
+{
+    width: 25%;
+    height: 30%;
+}
+
+.logo_img_header_hover
+{
+    width: 25%;
+    height: 30%;
+    display: none;
+}
+
+.other_logo_container:hover .logo_img_header_hover
+{
+    display: block;
+}
+
+.other_logo_container:hover .logo_img_header
+{
+    display: none;
+}
+
+.noti_container
+{
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noti_container:hover
+{
+    background-color: #cacaca;
+    cursor: pointer;
+}
+
+.logo_img_header_noti
+{
+    width: 70%;
+    height: 50%;
+}
+
+.logo_img_header_noti_hover
+{
+    width: 70%;
+    height: 50%;
+    display: none;
+}
+
+.noti_container:hover .logo_img_header_noti
+{
+    display: none;
+}
+
+.noti_container:hover .logo_img_header_noti_hover
+{
+    display: block;
+}
+
+.notification_hover
+{
+    display: none;
+    position: absolute;
+    width: 20%;
+    height: 19%;
+    top: 7%;
+    left: 22%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+}
+
+.notification_message_container
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.notification_message_container li
+{
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.notification_message_container li:hover
+{
+    background-color: rgb(198, 191, 191);
+    cursor: pointer;
+}
+
+/*
+    For the Profle Pic 
+*/
 .profile_picture_container
 {
     width: 4.5%;
