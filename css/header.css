@@ -150,7 +150,7 @@ li
 .notification_hover
 {
     display: none;
-    position: absolute;
+    position: fixed;
     width: 20%;
     height: 19%;
     top: 7%;
