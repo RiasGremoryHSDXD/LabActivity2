@@ -5,7 +5,6 @@ main
     margin-left: 5%;
     width: 89%;
     height: 150%;
-    background-color: red;
     display: flex;
     flex-wrap: wrap;
 }
@@ -56,14 +55,79 @@ main
         gap: 20px;
     }
 
+    /*
+        This for the first column in the main tag.
+        it located at the left side.
+    */
     .column_1
     {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        max-width: 25%;
+        max-width: 24.99999%;
         height: auto;
-        background-color: wheat;
+        gap: 20px;
+    }
+
+    .profile_column
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+        background-color: white;
+        box-shadow: 4px 4px 20px rgba(10, 10, 10, 0.2); 
+    }
+
+    .profile_column p
+    {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .logo_container
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .avatar
+    {
+        width: 106px;
+        height: 106px;
+        border-radius: 50%;
+    }
+    
+    .profile_img_size_logo
+    {
+        width: 15px;
+        height: 15px;
+        margin: 15px 15px 15px 0px;
+    }
+
+    .button_container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_container button
+    {
+        display: flex;
+        padding: 10px;
+        background-color: #7d97a5;
+        padding: 8px 16px;
+        border: none;
+        color: #fff;
+    }
+
+    .column_line
+    {
+        width: 100%;
     }
 
     .column_2
@@ -71,7 +135,7 @@ main
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        max-width: 58%;
+        max-width: 58.33333%;
         height: auto;
         background-color: yellow;
     }
@@ -81,7 +145,7 @@ main
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        max-width: 16.7%;
+        max-width: 16.66666%;
         height: auto;
         background-color: yellow;
     }
