@@ -191,6 +191,48 @@ main
         height: 95%;
     }
 
+    .notification
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #dfe5e8;
+        border: 1px solid grey;
+        padding: 0;
+    }
+
+    .notification > div
+    {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        padding: 10px;
+    }
+
+    .notification div > h2
+    {
+        margin: 0;
+    }
+    
+    .notification .center
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notification button
+    {
+        width: 50px;
+        font-size: 20px;
+    }
+
+    .notification button:hover
+    {
+        background-color: grey;
+        cursor: pointer;
+    }
+
     @media (max-width: 720px) {
         .button_container button {
             justify-content: center;
