@@ -113,21 +113,88 @@ main
     {
         display: flex;
         flex-direction: column;
+        box-shadow: 4px 4px 20px rgba(10, 10, 10, 0.2);
     }
 
     .button_container button
     {
         display: flex;
-        padding: 10px;
         background-color: #7d97a5;
-        padding: 8px 16px;
+        padding: 13px 26px;
         border: none;
         color: #fff;
+        gap: 20px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+    }
+
+    .button_container button p {
+        white-space: nowrap; 
+    }
+
+    .button_hover
+    {
+        display: none;
+    }
+
+    .button_container button:hover
+    {
+        background-color: #cccccc;
+        cursor: pointer;
+        color: black;
+    }
+
+    .button_container button:hover .not_hover
+    {
+        display: none;
+    }
+    
+    .button_container button:hover .button_hover
+    {
+        display: block;
     }
 
     .column_line
     {
         width: 100%;
+    }
+ 
+    button > img
+    {
+        width: 20px;
+        height: 18.38px;
+    }
+
+    .button_container > div
+    {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        padding: 13px 26px;
+        display: none;
+    }
+
+    .my_photo_cls
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my_photo_cls img
+    {
+        width: 100%;  /* Each image takes full width of the grid cell */
+        height: 95%;
+    }
+
+    @media (max-width: 720px) {
+        .button_container button {
+            justify-content: center;
+        }
     }
 
     .column_2
