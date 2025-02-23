@@ -176,6 +176,83 @@ main
         display: none;
     }
 
+    .interest_container
+    {
+        padding: 10px;
+        box-shadow: 4px 4px 20px rgba(10, 10, 10, 0.2);
+    }
+
+    .interest_container > div
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .interest_container div > p
+    {
+        color: white;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .news
+    {
+        background-color: #303e45        ;
+    }
+
+    .W3Schools
+    {
+        background-color: #3a4b53;
+    }
+
+    .labels
+    {
+        background-color: #435761;
+    }
+
+    .games
+    {
+        background-color: #4d636f;
+    }
+
+    .friend
+    {
+        background-color: #57707d;
+    }
+
+    .games1
+    {
+        background-color: #62737d;
+    }
+
+    .Friends1
+    {
+        background-color: #707d86;
+    }
+
+    .food
+    {
+        background-color: #83939d;
+    }
+
+    .design
+    {
+        background-color: #92a1ab;
+    }
+
+    .art
+    {
+        background-color: #a1b0b9;
+    }
+
+    .photos
+    {
+        background-color: #b2c0c9;
+    }
+
+
     .my_photo_cls
     {
         display: grid;
