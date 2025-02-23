@@ -195,11 +195,12 @@ main
         color: white;
         padding: 5px 10px;
         font-size: 15px;
-    }
+        font-family: "Open Sans", sans-serif;
+    }   
 
     .news
     {
-        background-color: #303e45        ;
+        background-color: #303e45;
     }
 
     .W3Schools
@@ -316,6 +317,10 @@ main
         }
     }
 
+    /*
+        This code for the 2nd column in the main tag
+    */
+
     .column_2
     {
         display: flex;
@@ -323,7 +328,88 @@ main
         flex-grow: 1;
         max-width: 58.33333%;
         height: auto;
-        background-color: yellow;
+        gap: 20px;
+    }
+
+    ._1st_column_container_two
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 10px;
+        gap: 10px;
+        font-family: "Open Sans", sans-serif;
+        box-shadow: 4px 4px 10px rgba(10, 10, 10, 0.2);
+    }
+
+    ._1st_column_container_two p
+    {
+        color: grey;
+    }
+
+    ._1st_column_container_two .status
+    {
+        font-size: 15px;
+        width: 95%;
+        height: 33%;
+        padding: 10px;
+    }
+
+    ._1st_column_container_two button
+    {
+        color: white;
+        background-color: #607d8b;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        padding: 10px 5px;
+        gap: 5px;
+    }
+
+    ._1st_column_container_two button:hover
+    {
+        color: black;
+        background-color: #cccccc;
+        cursor: pointer;
+    }
+
+    .is_hover
+    {
+        display: none;
+    }
+
+    ._1st_column_container_two button:hover .is_hover
+    {
+        display: block;
+    }
+
+    ._1st_column_container_two button:hover .not_hover
+    {
+        display: none;
+    }
+
+    ._1st_column_container_two button > img
+    {
+        width: 20%;
+        height: 80%;
+    }
+
+    ._2nd_column_container_two
+    {
+        background-color: pink;
+    }
+
+    ._3rd_column_container_two
+    {
+        background-color: skyblue;
+    }
+
+    ._4th_column_container_two
+    {
+        background-color: goldenrod;
     }
 
     .column_3
