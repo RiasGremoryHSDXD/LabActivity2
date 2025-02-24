@@ -399,15 +399,128 @@ main
 
     ._2nd_column_container_two
     {
-        background-color: pink;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0.5px;
         padding: 15px;
+        box-shadow: 4px 4px 10px rgba(10, 10, 10, 0.2);
     }
 
-    ._2nd_column_container_two img
+    ._2nd_column_container_two hr
+    {
+        opacity:0.2;
+    }
+
+    .profile_top_column
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin: 15px 0px 50px 0px;
+    }
+
+    .profile_details
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .profile_top_column p
+    {
+        font-size: 15px;
+        color: grey;
+    }
+
+    .profile_details p
+    {
+        font-size: 20px;
+        color: black;
+    }
+
+    .caption_text
+    {
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .profile_top_column img
     {
         width: 50px;
         height: 50px;
         border-radius: 50%;
+    }
+
+    .post_picture
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .post_picture img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .react_button_cointainer
+    {
+        display: flex;
+        gap: 15px;
+    }
+    
+    ._2nd_column_container_two button
+    {
+        background-color: #4d636f;
+        font-size: 15px;
+        border: none;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    ._2nd_column_container_two button:hover
+    {
+        background-color: #cccccc;
+        color: black;
+        cursor: pointer;
+    }
+
+    ._2nd_column_container_two button:hover .like_not_hover
+    {
+        display: none;
+    }
+
+    ._2nd_column_container_two .like_is_hover
+    {
+        display: none;
+    }
+
+    ._2nd_column_container_two button:hover .like_is_hover
+    {
+        display: block;
+    }
+
+    ._2nd_column_container_two button:hover .comment_not_hover
+    {
+        display: none;
+    }
+
+    ._2nd_column_container_two .comment_is_hover
+    {
+        display: none;
+    }
+
+    ._2nd_column_container_two button:hover .comment_is_hover
+    {
+        display: block;
     }
 
     ._3rd_column_container_two
