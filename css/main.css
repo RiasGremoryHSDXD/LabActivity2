@@ -49,6 +49,7 @@ main
 
 @media (min-width: 601px) { /* Adjust the max-width as needed */
     main {
+        margin-top: 5%;
         display: flex;
         flex-direction: row; /* Stacks items vertically */
         align-items: flex-start;
@@ -575,11 +576,13 @@ main
         font-size: 15px;
         padding: 10px;
         width: 100%;
+        border: none;
+        cursor: pointer;
     }
 
-    ._3rd_column_container_clm_3 button
+    ._3rd_column_container_clm_3 button:hover
     {
-        cursor: pointer;
+        background-color: #cccccc;
     }
 
     ._3rd_column_container_clm_3 .avatar3

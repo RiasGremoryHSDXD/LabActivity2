@@ -1,0 +1,4 @@
+Feb 24, 2025
+
+• This project is currently optimized for a responsive display at a screen resolution of 2560 x 1975 pixels.
+• Responsive design for other screen sizes is still in progress, and additional media queries will be added to enhance adaptability across various devices.
