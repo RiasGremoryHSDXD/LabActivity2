@@ -461,6 +461,20 @@ main
         margin-bottom: 15px;
     }
 
+    .post_picture2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .post_picture2 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
     .post_picture img
     {
         width: 100%;
@@ -521,16 +535,6 @@ main
     ._2nd_column_container_two button:hover .comment_is_hover
     {
         display: block;
-    }
-
-    ._3rd_column_container_two
-    {
-        background-color: skyblue;
-    }
-
-    ._4th_column_container_two
-    {
-        background-color: goldenrod;
     }
 
     .column_3
